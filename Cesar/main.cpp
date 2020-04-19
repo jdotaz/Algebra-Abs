@@ -5,7 +5,7 @@
 using namespace std;
 
 int main (){
-  cout<<"Hola mundo xd"<<endl;
+  cout<<"Hola"<<endl;
   Cesar emisor(3);
   cout<<emisor.Descifrar("iholc");
   return 0;
