@@ -6,7 +6,7 @@ _Practica sobre el cifrado de Vigenere_
 
 _Ya que el alfabeto que manejamos incluye el " "(espacio) si un mensaje despues de ser cifrado termina en ese caracter, corre el riego de ser obviado y al decifrarlo se perderia el ultimo elemento._
 
-## Expresiones de Gratitud 📋
+### Ejercicio 3b 📋
 
 * Explicacion ambigua sobre la implementacion de los alfabetos ASCII y HEX.
 * Intento del alfabeto ASCII.
