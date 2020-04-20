@@ -3,9 +3,12 @@
 #include <vector>
 #include "kasiski.cpp"
 
+
 using namespace std;
 
 int main (){
-  kasiski kas();
-  kas.cryptoanalisis("josaaaaaaaaajos");
+  kasiski kas;
+  string mensaje="";
+  kas.cryptoanalisis(mensaje);
+
 }
