@@ -48,7 +48,7 @@ void kasiski::dividirSubCadenas(string _mensaje,string _subcadenas[], int _mcd){
   }
 }
 
-void kasiski::contarTabla(string cadena){
+string kasiski::contarTabla(string cadena){
   int tabla[alfabeto.length()];
   for(int i=0;i<alfabeto.length();i++){
     tabla[i]=0;
@@ -67,16 +67,22 @@ void kasiski::contarTabla(string cadena){
     }
   }
   indice-=26;
-  cout <<alfabeto[indice];
+  if (indice<0){
+    indice+=alfabeto.length();
+  }
+  string letra;
+  letra+=alfabeto[indice];
+  return letra;
 }
 
-void kasiski::cryptoanalisis(string mensaje){
+string kasiski::cryptoanalisis(string mensaje){
   tamDeLaClave(mensaje);
   int mcd=euclidesVector();
   string subcadenas[mcd];
   dividirSubCadenas(mensaje,subcadenas,mcd);
-  contarTabla(subcadenas[0]);
-  contarTabla(subcadenas[1]);
-  contarTabla(subcadenas[2]);
-  contarTabla(subcadenas[3]);
+  string calveResultado;
+  for(int i=0;i<mcd;i++){
+    calveResultado+=contarTabla(subcadenas[i]);
+  }
+  return calveResultado;
 }

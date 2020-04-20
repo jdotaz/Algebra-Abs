@@ -10,6 +10,5 @@ int main (){
   kasiski kas;
   string mensaje;
   getline(cin,mensaje);
-  kas.cryptoanalisis(mensaje);
-
+  cout<<kas.cryptoanalisis(mensaje);
 }
