@@ -8,8 +8,8 @@ _Ya que el alfabeto que manejamos incluye el " "(espacio) si un mensaje despues 
 
 ### Ejercicio 3b 📋
 
-_-Explicacion ambigua sobre la implementacion de los alfabetos ASCII y HEX._
-_-Intento del alfabeto ASCII, alfabeto HEX no implementado._
+*Explicacion ambigua sobre la implementacion de los alfabetos ASCII y HEX.
+*Intento del alfabeto ASCII, alfabeto HEX no implementado.
 
 ### Ejercicio 3d 🔧
 
