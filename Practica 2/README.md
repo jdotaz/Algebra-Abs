@@ -13,7 +13,7 @@ _Practica sobre el cifrado de Vigenere, todos los ejercicios estan completos y c
 
 ### Ejercicio 3d 🔧
 
-* Implementación el criptoanalisis Kasiski como código(en desarrollo, estara listo antes de las 4:00p.m de hoy 20 de abril del 2020).
+* Implementación el criptoanalisis Kasiski como código(sirve con textos largos con clave de 4 digitos).
 
 ### Otras 📙
 
