@@ -14,15 +14,3 @@ _-Intento del alfabeto ASCII, alfabeto HEX no implementado._
 ### Ejercicio 3d 🔧
 
 _Implementacion el criptoanalisis Kasiski como codigo(en desarrollo)._
-
-
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
-
-
-
-
