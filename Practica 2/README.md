@@ -1,6 +1,6 @@
 # Practica de laboratorio 2
 
-_Practica sobre el cifrado de Vigenere, todos los ejercicios estan completos y comprobados._
+_Practica sobre el cifrado de Vigenere, todos los ejercicios estan completos y comprobados, excepto el 3b._
 
 
 ## Observaciones 🚀
