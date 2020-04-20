@@ -8,7 +8,8 @@ using namespace std;
 
 int main (){
   kasiski kas;
-  string mensaje="";
+  string mensaje;
+  getline(cin,mensaje);
   kas.cryptoanalisis(mensaje);
 
 }

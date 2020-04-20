@@ -27,10 +27,10 @@ int kasiski::euclidesVector(){
 void kasiski::tamDeLaClave(string mensaje){
   string prueba;
   for(int i=0;i<mensaje.length()-2;i++){
-    prueba.append(mensaje,i,4);
+    prueba.append(mensaje,i,5);
     size_t found=mensaje.find(prueba,i+1);
     if (found!=std::string::npos){
-      int x=mensaje.find(prueba,i+3);
+      int x=mensaje.find(prueba,i+1);
       x-=i;
       distancias.push_back(x);
     }
@@ -58,7 +58,16 @@ void kasiski::contarTabla(string cadena){
       }
     }
   }
+  int encontrado=tabla[0];
+  int indice=0;
+  for(int i=0;i<alfabeto.length()-1;i++){
+    if(encontrado<tabla[i]){
+      encontrado=tabla[i];
+      indice=i;
+    }
   }
+  indice-=26;
+  cout <<alfabeto[indice];
 }
 
 void kasiski::cryptoanalisis(string mensaje){
@@ -66,6 +75,8 @@ void kasiski::cryptoanalisis(string mensaje){
   int mcd=euclidesVector();
   string subcadenas[mcd];
   dividirSubCadenas(mensaje,subcadenas,mcd);
-  cout<<subcadenas[0];
   contarTabla(subcadenas[0]);
+  contarTabla(subcadenas[1]);
+  contarTabla(subcadenas[2]);
+  contarTabla(subcadenas[3]);
 }
