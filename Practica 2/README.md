@@ -17,4 +17,4 @@ _Practica sobre el cifrado de Vigenere, todos los ejercicios estan completos y c
 
 ### Otras 📙
 
-_Ya que el alfabeto que manejamos incluye el " "(espacio) si un mensaje despues de ser cifrado termina en ese caracter, corre el riesgo de ser obviado y al decifrarlo se perderia el ultimo elemento._
+* Ya que el alfabeto que manejamos incluye el " "(espacio) si un mensaje despues de ser cifrado termina en ese caracter, corre el riesgo de ser obviado y al decifrarlo se perderia el ultimo elemento.
