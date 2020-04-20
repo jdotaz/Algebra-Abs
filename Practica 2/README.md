@@ -5,6 +5,7 @@ _Practica sobre el cifrado de Vigenere_
 ## Observaciones 🚀
 
 _Ya que el alfabeto que manejamos incluye el " "(espacio) si un mensaje despues de ser cifrado termina en ese caracter, corre el riego de ser obviado y al decifrarlo se perderia el ultimo elemento._
+
 _Todos los ejercicios estan comppletos y comprovados exepto:_
 
 ### Ejercicio 3b 📋
