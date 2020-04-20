@@ -1,12 +1,9 @@
 # Practica de laboratorio 2
 
-_Practica sobre el cifrado de Vigenere_
+_Practica sobre el cifrado de Vigenere, todos los ejercicios estan completos y comprobados._
+
 
 ## Observaciones 🚀
-
-_Ya que el alfabeto que manejamos incluye el " "(espacio) si un mensaje despues de ser cifrado termina en ese caracter, corre el riego de ser obviado y al decifrarlo se perderia el ultimo elemento._
-
-_Todos los ejercicios estan completos y comprobados excepto:_
 
 ### Ejercicio 3b 📋
 
@@ -16,4 +13,8 @@ _Todos los ejercicios estan completos y comprobados excepto:_
 
 ### Ejercicio 3d 🔧
 
-* Implementación el criptoanalisis Kasiski como codigo(en desarrollo).
+* Implementación el criptoanalisis Kasiski como código(en desarrollo, estara listo antes de las 4:00p.m de hoy 20 de abril del 2020).
+
+### Otras 📋
+
+_Ya que el alfabeto que manejamos incluye el " "(espacio) si un mensaje despues de ser cifrado termina en ese caracter, corre el riego de ser obviado y al decifrarlo se perderia el ultimo elemento._
