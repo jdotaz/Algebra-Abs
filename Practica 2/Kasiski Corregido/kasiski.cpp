@@ -57,7 +57,6 @@ string kasiski::contarTabla(string cadena){
         tabla[i]++;
       }
     }
-    cout<<alfabeto[i]<<": "<<tabla[i]<<endl;
   }
   return AnalisisFrecuencias(tabla);
 }
@@ -66,7 +65,6 @@ string kasiski::AnalisisFrecuencias(int _tabla[]){
   int tablaResultado[alfabeto.length()];
   for(int i=0;i<alfabeto.length();i++){
     tablaResultado[i]=_tabla[i]+_tabla[(i+4)%alfabeto.length()]+_tabla[(i+14)%alfabeto.length()]+_tabla[(i+18)%alfabeto.length()];
-    cout<<alfabeto[i]<<tablaResultado[i]<<endl;
   }
   int indice=0;
   for(int i=1;i<alfabeto.length();i++){
@@ -82,7 +80,6 @@ string kasiski::AnalisisFrecuencias(int _tabla[]){
 string kasiski::cryptoanalisis(string mensaje){
   tamDeLaClave(mensaje);
   int mcd=euclidesVector();
-  cout<<endl<<"El porte de la clave es:"<<mcd<<endl;
   string subcadenas[mcd];
   dividirSubCadenas(mensaje,subcadenas,mcd);
   string calveResultado;
