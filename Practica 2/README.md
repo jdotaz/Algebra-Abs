@@ -14,6 +14,7 @@ _Practica sobre el cifrado de Vigenere, todos los ejercicios estan completos y c
 ### Ejercicio 3d 🔧
 
 * Implementación el criptoanalisis Kasiski como código(sirve con textos largos con clave de 4 digitos).
+* Kasiski corregido y estable, en una carpeta aparte.
 
 ### Otras 📙
 
