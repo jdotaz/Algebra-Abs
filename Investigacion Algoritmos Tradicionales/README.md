@@ -1,10 +1,12 @@
-# Integrantes del grupo:
-- Roberto Antonio Benavides Torres
-- María Graciel Cruz Cáceres
-- Juan Diego Obando Zúñiga
-- Sharon Daniela Valdivia Begazo
-- Sol Morelia Velásquez Rodríguez   
+#Trabajo de investigación sobre algoritmos Tradicionales
 
-# Algoritmos Implementados
-- Algoritmo de Polybios (Polybios)
-- Algoritmo de Hill (HillCode V2)
+## Integrantes del grupo:
+* Roberto Antonio Benavides Torres
+* María Graciel Cruz Cáceres
+* Juan Diego Obando Zúñiga
+* Sharon Daniela Valdivia Begazo
+* Sol Morelia Velásquez Rodríguez   
+
+## Algoritmos Implementados
+* Algoritmo de Polybios (Polybios)
+* Algoritmo de Hill (HillCode V2)

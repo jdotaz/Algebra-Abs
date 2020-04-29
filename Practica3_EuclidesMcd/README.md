@@ -1,5 +1,6 @@
 # Practica de laboratorio 3
 
+_Realizado por Juan Diego Obando Zúñiga._
 _Practica sobre el algoritmo de Euclides, todos los ejercicios estan completos y comprobados._
 
 
