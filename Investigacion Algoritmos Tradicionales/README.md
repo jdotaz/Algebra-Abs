@@ -1,4 +1,4 @@
-#Trabajo de investigación sobre algoritmos Tradicionales
+# Trabajo de investigación sobre algoritmos Tradicionales
 
 ## Integrantes del grupo:
 * Roberto Antonio Benavides Torres

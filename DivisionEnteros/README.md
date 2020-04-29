@@ -15,5 +15,5 @@ _Y que cumpla las siguntes condiciones:_
 * q(cociente) pertenece a los entros.
 * r(residuo) sea no negativo.
 
-_Se utilizó paso por referencia ya que, según la consigna(aún no estaba claro que esta funsión iba a ser la de módulo), la función deberia retornar 2 variables (q y r).
+_Se utilizó paso por referencia ya que, según la consigna(aún no estaba claro que esta funsión iba a ser la de módulo), la función deberia retornar 2 variables (q y r)._
 

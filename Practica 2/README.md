@@ -12,9 +12,9 @@ _Práctica sobre el cifrado de Vigenere, todos los ejercicios estan completos y 
 
 ### Ejercicio 3d 🔧
 
-* Implementación el criptoanalisis Kasiski como código(sirve con textos largos con clave de 4 digitos).
+* Implementación el criptoanalisis Kasiski como código(sirve con textos largos con clave de 4 digitos), pero falta un análisis de frecuencias óptimo(solo aprovecha el hecho de que el caracter que mas se repite es el " ").
 * El error de que solo decifraba claves de 4 dígitos se debió a que el número 4 fue usado en un función como constante.
-* Kasiski corregido y estable, en una carpeta aparte(Kasiski corregido).
+* Kasiski corregido y estable, con todos los problemas resueltos y un análisis de frecuencias óptimo, se encuentra en una carpeta aparte llamada "Kasiski corregido".
 
 ### Otras 📙
 
