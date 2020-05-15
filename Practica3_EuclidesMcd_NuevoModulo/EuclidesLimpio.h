@@ -16,6 +16,8 @@ class EuclidesLimpio
         ZZ mcd3(ZZ a, ZZ b);
         ZZ mcd4(ZZ a, ZZ b);
         ZZ mcd5(ZZ a, ZZ b);
+        ZZ mcd4_1(ZZ a, ZZ b);
+        ZZ mcd5_1(ZZ a, ZZ b);
         ZZ mcd6(ZZ a, ZZ b);
         ZZ mcd7(ZZ a, ZZ b);
 

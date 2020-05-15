@@ -92,6 +92,55 @@ ZZ EuclidesLimpio::mcd5(ZZ a,ZZ b){
   return g*b;
 }
 
+
+ZZ EuclidesLimpio::mcd4_1(ZZ a,ZZ b){
+  if (abs(b)>abs(a)) {
+    return mcd4(b,a);
+  }
+  if (b==0) {
+    return a;
+  }
+  if ((a&1)==0 and (b&1)==0) {
+    return mcd4(a>>1,b>>1)<<1;
+  }
+  if ((a&1)==0 and (b&1)!=0) {
+    return mcd4(a>>1,b);
+  }
+  if ((a&1)!=0 and (b&1)==0) {
+    return mcd4(a,b>>1);
+  }
+  return mcd4((abs(a)-abs(b))>>1,b);
+}//Con operaciones bitwise
+
+ZZ EuclidesLimpio::mcd5_1(ZZ a,ZZ b){
+  if(a<0 or b<0){
+    return ZZ(-1);
+  }
+  int g=0;
+
+  while ((a&1)==0 and (b&1)==0) {
+    a=a>>1;
+    b=b>>1;
+    g++;
+  }
+  while (a!=0) {
+    while ((a&1)==0) {
+      a=a>>1;
+    }
+    while ((b&1)==0) {
+      b=b>>1;
+    }
+    ZZ t=abs(a-b)>>1;
+    if (a>=b){
+      a=t;
+    }else{
+      b=t;
+    }
+  }
+  return b<<g;
+}//Con operaciones bitwise
+
+
 ZZ EuclidesLimpio::mcd6(ZZ a,ZZ b){
   while (a!=b) {
     if (a>b){
