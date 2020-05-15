@@ -6,7 +6,7 @@ Euclides::Euclides()
 
 
 ZZ Euclides::modulo(ZZ dividendo,ZZ divisor){
-  ZZ residuo=dividendo%divisor;
+  ZZ residuo=dividendo-(b*(dividendo/divisor));
   if (residuo<0){
     residuo+=divisor;
   }

@@ -4,7 +4,7 @@ using namespace std;
 
 void division(int a,int b,int &residuo,int &cociente){
   cociente=a/b;
-  residuo=a%b;
+  residuo=a-(b*cociente);
   if (residuo<0){
     cociente--;
     residuo+=b;

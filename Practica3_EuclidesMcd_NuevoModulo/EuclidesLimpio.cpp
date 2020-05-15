@@ -6,7 +6,7 @@ EuclidesLimpio::EuclidesLimpio()
 
 
 ZZ EuclidesLimpio::modulo(ZZ dividendo,ZZ divisor){
-  ZZ residuo=dividendo%divisor;
+  ZZ residuo=dividendo-(divisor*(dividendo/divisor));
   if (residuo<0){
     residuo+=divisor;
   }
